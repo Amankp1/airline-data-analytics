@@ -1,0 +1,8 @@
+Flask
+streamlit
+selenium
+beautifulsoup4
+pandas
+plotly
+requests
+google-generativeai
