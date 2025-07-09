@@ -135,12 +135,4 @@ atexit
 
 ---
 
-## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
-
----
-
-## License
-
-This project is for educational and research purposes only. Please respect the terms of service of any third-party sites you interact with.
