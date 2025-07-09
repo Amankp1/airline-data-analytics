@@ -35,8 +35,7 @@ airline-data-analytics/
 ### 1. Clone the Repository
 
 ```sh
-git clone <repository-url>
-cd airline-data-app
+git clone https://github.com/Amankp1/airline-data-analytics.git
 ```
 
 ### 2. Install Dependencies
