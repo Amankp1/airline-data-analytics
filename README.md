@@ -260,5 +260,5 @@ This dashboard enables users to:
 - Leverage intuitive visualizations to interpret complex pricing data.
 - Make informed, data-backed booking decisions for personal or business travel.
 
-Use the documentation above to explore and extract the most value from the Flight Price Analysis Dashboard.
+
 
