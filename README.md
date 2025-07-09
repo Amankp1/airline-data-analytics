@@ -132,6 +132,7 @@ atexit
 - **Google Flights scraping** may break if Google changes its page structure.
 - **Google Gemini API** requires an API key. Replace the placeholder in `streamlit_app.py` with your own key.
 - **ChromeDriver** must be installed and compatible with your Chrome browser.
+- I chose to build it using Streamlit for rapid development and clear data visualization. If a React-based version is preferred, I’d be happy to adapt it accordingly.
 
 ---
 
