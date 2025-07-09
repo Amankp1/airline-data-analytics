@@ -135,4 +135,130 @@ atexit
 
 ---
 
+## Dashboard Documentation
+
+The Flight Price Analysis Dashboard provides a powerful interface to explore flight pricing patterns through interactive visualizations and statistical breakdowns. This documentation provides a comprehensive guide to understanding and using the key components of the dashboard.
+
+---
+
+### 1. Dashboard Components
+
+#### **Flight Price Matrix**
+- **Function**: Displays an interactive heatmap of flight prices across combinations of departure and return dates.
+- **Design**: 
+  - X-axis = Return Days  
+  - Y-axis = Departure Days  
+  - Cells are **color-coded** to show price intensity:
+    - **Green/Cool Colors**: Lower prices (cheaper)
+    - **Red/Warm Colors**: Higher prices (costlier)
+- **Usage**:
+  - Hover over a cell to view the exact price for a date pair.
+  - Quickly spot cost-effective date combinations and price anomalies.
+- **Business Value**: Instantly identify affordable travel combinations and recurring price patterns.
+
+#### **Detailed Price Data Table**
+- **Function**: Provides a full tabular breakdown of every available flight option.
+- **Columns**:
+  - **Departure Date**
+  - **Return Date**
+  - **Price**
+  - **Trip Duration**
+  - **Price Category** (Cheapest, Low, Regular)
+  - **Is Selected**
+- **Interactive Features**:
+  - Column sorting
+  - Filter by price or date range
+  - Color-highlighted selected flights (in light green)
+- **Business Value**: Offers complete transparency and enables users to compare options at a granular level.
+
+---
+
+### 2. Statistical Analysis
+
+#### **Key Performance Metrics**
+- Displays four primary statistics:
+  - **Cheapest Price**
+  - **Most Expensive Price**
+  - **Average Price**
+  - **Price Range**
+- **Interpretation**:
+  - A low price range indicates price stability.
+  - A large gap between average and cheapest price shows savings potential.
+
+#### **Day-wise Price Analysis**
+- **Departure and Return Day Statistics Tables** show:
+  - **Average**, **Minimum**, and **Maximum Price**
+  - **Number of Flights** available for each day
+- **Best Days Rankings**:
+  - Highlights top 3 cheapest departure and return days.
+- **Interpretation**:
+  - Lower averages and narrower ranges are generally better for budget-conscious planning.
+
+#### **Trip Duration Analysis**
+- **Table** displays average, min, max prices, and counts for each duration.
+- **Scatter Plot**:
+  - **X-axis**: Trip duration
+  - **Y-axis**: Price
+  - **Colors**: Represent price categories
+- **Business Value**:
+  - Identifies the optimal number of travel days for best price-to-value ratio.
+
+#### **Price Category Analysis**
+- **Categories**:
+  - Cheapest Price (promotional deals)
+  - Low Price (below average)
+  - Regular Price (standard fare)
+- **Box Plot** Visualization:
+  - Shows price distribution, spread, and outliers
+- **Insights**:
+  - Understand how fares are distributed across categories
+  - Spot deals and pricing anomalies
+
+---
+
+### 3. Visualization Guide
+
+#### **Price Heatmap (Matrix)**
+- **Colors**:
+  - Dark Green: Lowest prices
+  - Light Green: Below average
+  - Yellow: Average
+  - Orange: Above average
+  - Red: Highest prices
+- **Interactions**:
+  - Hover over cells for detailed info
+  - Zoom into specific areas
+  - Refer to the legend for interpretation
+
+#### **Time-based Trend Lines**
+- **X-axis**: Departure dates  
+- **Y-axis**: Price  
+- **Multiple colored lines**: Represent return dates
+- **Patterns**:
+  - Flat lines: Stable pricing
+  - Upward trends: Increasing prices
+  - Peaks/Valleys: High/low demand windows
+
+#### **Comparison Bar Charts**
+- **Types**:
+  - Departure day comparison
+  - Return day comparison
+  - Trip duration comparison
+  - Price category comparison
+- **Interpretation**:
+  - Taller bars = higher prices
+  - Clickable elements for breakdowns
+  - Color-coded consistently with other visuals
+
+---
+
+### Summary
+
+This dashboard enables users to:
+- Discover the most cost-effective travel dates.
+- Compare price patterns by day, trip duration, or category.
+- Leverage intuitive visualizations to interpret complex pricing data.
+- Make informed, data-backed booking decisions for personal or business travel.
+
+Use the documentation above to explore and extract the most value from the Flight Price Analysis Dashboard.
 
